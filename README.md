@@ -42,3 +42,5 @@ bin/magento setup:static-content:deploy -f
 # Change log
     1.0.0
         Init extension
+    1.0.1
+        Change require module
