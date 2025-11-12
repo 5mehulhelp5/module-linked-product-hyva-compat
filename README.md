@@ -1,10 +1,7 @@
 # Hyvä Linked Product
 
 # Summary
-This module allows you to link products that are similar in style but differ in size, color, etc.
-
-# Config
-
+This module allows you to link products that are similar in style but differ in size, color, etc for Hyva theme.
 
 # Installation
 
@@ -40,7 +37,9 @@ bin/magento setup:static-content:deploy -f
 ```
 
 # Change log
-    1.0.0
-        Init extension
+    1.0.2
+        Update Readme.md
     1.0.1
         Change require module
+    1.0.0
+        Init extension
