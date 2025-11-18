@@ -1,27 +1,45 @@
-# Hyvä Linked Product
+# Hyvä Linked Product – Magento 2 Extension
 
-# Summary
-This module allows you to link products that are similar in style but differ in size, color, etc for Hyva theme.
+A Magento 2 module for Hyvä themes that links products sharing similar styles but differing in attributes such as size, color, or material. This improves product organization and enhances the shopping experience.
 
-# Installation
+---
 
-## Composer
+## 📌 Features
 
-Add Sutunam composer repository:
+* Link similar products by attributes (e.g., color, size, material).
+* Display linked products on product listing and product view pages.
+* Easy to configure backend settings.
+
+---
+
+## ⚙️ Configuration
+
+Currently, there are no additional configuration options beyond enabling the module. The module works automatically with linked products.
+
+---
+
+## 📦 Installation
+
+### Install via Composer
+
+1. Add the Sutunam Composer repository:
 
 ```json
 "repositories": {
-"sutunam": {
-"type": "composer",
-"url": "https://composer.sutunam.com/m2/"
+    "sutunam": {
+        "type": "composer",
+        "url": "https://composer.sutunam.com/m2/"
+    }
 }
 ```
+
+2. Require the module:
 
 ```bash
 composer require sutunam/hyva-linked-product
 ```
 
-Then, execute the following Magento commands:
+3. Enable and upgrade the module:
 
 ```bash
 bin/magento module:enable Sutunam_HyvaLinkedProduct
@@ -29,17 +47,33 @@ bin/magento setup:upgrade
 bin/magento cache:flush
 ```
 
-If you are in production mode, also run:
+4. For production mode:
 
 ```bash
 bin/magento setup:di:compile
 bin/magento setup:static-content:deploy -f
 ```
 
-# Change log
-    1.0.2
-        Update Readme.md
-    1.0.1
-        Change require module
-    1.0.0
-        Init extension
+---
+
+## 📝 Changelog
+
+### 1.0.2
+
+* Update Readme.md
+
+### 1.0.1
+
+* Updated required modules.
+
+### 1.0.0
+
+* Initial module release.
+
+---
+
+## ✔️ Notes
+
+* Fully compatible with Hyvä theme.
+* No additional configuration is needed for basic usage.
+* Designed to improve product discoverability and enhance the shopping experience.
