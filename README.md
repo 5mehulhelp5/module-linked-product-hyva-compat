@@ -6,15 +6,9 @@ A Magento 2 module for Hyvä themes that links products sharing similar styles b
 
 ## 📌 Features
 
-* Link similar products by attributes (e.g., color, size, material).
-* Display linked products on product listing and product view pages.
-* Easy to configure backend settings.
-
----
-
-## ⚙️ Configuration
-
-Currently, there are no additional configuration options beyond enabling the module. The module works automatically with linked products.
+-   Link similar products by attributes (e.g., color, size, material).
+-   Display linked products on product listing and product view pages.
+-   Easy to configure backend settings.
 
 ---
 
@@ -45,32 +39,17 @@ bin/magento setup:static-content:deploy -f
 
 ---
 
-## 📝 Changelog
+## ⚙️ Configuration
 
-### 1.0.3
-
-* Remove .gitlab-ci.yml to use the same one as other modules
-* Update license
-
-### 1.0.2
-
-* Update Readme.md
-
-### 1.0.1
-
-* Updated required modules.
-
-### 1.0.0
-
-* Initial module release.
+Currently, there are no additional configuration options beyond enabling the module. The module works automatically with linked products.
 
 ---
 
 ## ✔️ Notes
 
-* Fully compatible with Hyvä theme.
-* No additional configuration is needed for basic usage.
-* Designed to improve product discoverability and enhance the shopping experience.
+-   Fully compatible with Hyvä theme.
+-   No additional configuration is needed for basic usage.
+-   Designed to improve product discoverability and enhance the shopping experience.
 
 ## Development by Sutunam
 
