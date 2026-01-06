@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.6]
+
+### Changed
+
+-   Updated required modules. 
+
 ## [1.0.5]
 
 ### Changed
