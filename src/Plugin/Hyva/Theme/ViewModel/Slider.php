@@ -9,6 +9,7 @@ declare(strict_types=1);
 namespace Sutunam\HyvaLinkedProduct\Plugin\Hyva\Theme\ViewModel;
 
 use Hyva\Theme\ViewModel\Store;
+use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Visibility;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Sutunam\LinkedProduct\Model\Config as ConfigData;
@@ -100,6 +101,7 @@ class Slider
         $linkedProducts = [];
 
         foreach ($linkedIds as $item) {
+            /** @var Product|null $linkedProduct */
             $linkedProduct = $linkedCollection->getItemById($item['linked_product_id']);
             if ($linkedProduct) {
                 $linkedProducts[$item['product_id']][] =

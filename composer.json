@@ -2,7 +2,7 @@
     "name": "sutunam/hyva-linked-product",
     "description": "Hyva Compat For Sutunam Linked Product Module",
     "type": "magento2-module",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "require": {
         "sutunam/module-linked-product": "*"
     },
@@ -25,8 +25,7 @@
     },
     "config": {
         "allow-plugins": {
-            "phpstan/extension-installer": true,
-            "magento/composer-dependency-version-audit-plugin": false
+            "magento/composer-dependency-version-audit-plugin": true
         }
     }
 }
